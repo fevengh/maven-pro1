@@ -10,14 +10,11 @@
 - when prompted to customise new password, use: "admin", 
 - Click on disable anonymous access and then Finish.
 - 
- 
-
-## Install Apache Maven
+ ## Install Apache Maven
 - Create a linux2 instance (ensure to not select the 2023 linux ami) with t2.micro type. 
 - ssh into the instance and follow the link below for installation setup.
 - install tree with command: sudo yum install tree -y
 - https://github.com/awanmbandi/maven-nexus-project-eagles-batch/blob/maven-nexus-install/maven-install.md
-
 ## Maven commands
 1. clone the source code from repository where it is stored.
 2. cd into the cloned folder
@@ -29,7 +26,6 @@
    - `mvn package`    (take the compiled code and package it in its distributable format, such as a WAR/JAR/EAR.)
    - `mvn verify`     (run any checks to verify the package is valid and meets quality criteria.)
    - `mvn install`    (install the package into the local repository, for use as a dependency in other projects locally.)
-
 ## Install SonarQube
 - Launch ec2-instance with OS: ubuntu 20.04, type:t2.medium
 - Security group should allow port 9000 for inbound traffic
