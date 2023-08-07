@@ -14,7 +14,7 @@
 - Create a linux2 instance (ensure to not select the 2023 linux ami) with t2.micro type. 
 - ssh into the instance and follow the link below for installation setup.
 - install tree with command: sudo yum install tree -y
-- https://github.com/awanmbandi/maven-nexus-project-eagles-batch/blob/maven-nexus-install/maven-install.md
+- https://github.com/awanmbandi/maven-nexus-project-eagles-batch/blob/maven-nexus-install/maven-install.md 
 ## Maven commands
 1. clone the source code from repository where it is stored.
 2. cd into the cloned folder
